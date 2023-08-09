@@ -57,8 +57,6 @@ def display_text(words, wpm):
             elif command == 'o':
                 wpm = max(25, wpm - 25)
                 interval = 60 / wpm
-            elif command == ' ':
-                input("Paused. Press Enter to continue...")
         else:
             idx += 1
 
@@ -84,7 +82,6 @@ def main():
         print("Do not forget to blink. [Dry eyes note]")
         print("Current WPM: "+str(wpm))
         print("COMMANDS:")
-        print("r - restart")
         print("s - set WPM")
         print("n - load new text file")
         print("[p + enter] - (increase speed), [o + enter] - (decrease speed)")
@@ -92,9 +89,7 @@ def main():
 
         command = input("Press Enter to begin reading the file. Press enter again to move a particular word to a new line.")
 
-        if command == 'r':
-            pass  # Resetting is handled in the display_text function
-        elif command == '':
+        if command == '':
             display_text(text, wpm)
         elif command == 'n':
             filename = input("Enter the name of the new text or PDF file: ")
