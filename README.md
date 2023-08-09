@@ -40,7 +40,7 @@ s: Set words per minute (WPM).
 [k + enter]: Skip back 25 words.
 [l + enter]: Skip ahead 25 words.
 
-### in action
+### In action
 https://youtu.be/zu94nd_sLNU
 
 ### License
