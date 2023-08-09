@@ -26,6 +26,10 @@ Replace [filename] with the name of a text or PDF file you want to read. This ar
 If no filename is provided, the script will prompt you to paste your clipboard contents for reading.
 Follow on-screen instructions to control the reading process.
 
+
+The variable on line 79 "wpm = 400" can be adjusted to set the default WPM to your preference.
+
+
 ### Commands
 
 [Enter]: Begin reading the file. Press again to move a particular word to a new line.
