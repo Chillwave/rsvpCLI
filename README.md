@@ -41,7 +41,10 @@ s: Set words per minute (WPM).
 [l + enter]: Skip ahead 25 words.
 
 ### In action
-https://youtu.be/zu94nd_sLNU
+
+* Within Kubuntu, Scroll lock was used as a keybind to open a konsole session with the script. This reads clipboard contents and allows you to rapidly read a selected sum of text.
+  
+https://youtube.com/shorts/uiw-lePGQqU?feature=share
 
 ### License
 This project is open-source. Feel free to modify, distribute, and use it as you see fit.
